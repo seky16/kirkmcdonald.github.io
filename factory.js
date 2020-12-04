@@ -347,7 +347,7 @@ function FactorySpec(factories) {
     }
     this.setMinimum("1")
     var smelters = this.factories["smelting"]
-    this.furnace = smelters[smelters.length - 1]
+    this.furnace = smelters[1]
     DEFAULT_FURNACE = this.furnace.name
     let chem_plants = this.factories["chemistry"]
     this.chemical_plant = chem_plants[0]

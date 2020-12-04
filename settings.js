@@ -184,7 +184,7 @@ function renderPrecisions(settings) {
 }
 
 // minimum assembler
-var DEFAULT_MINIMUM = "1"
+var DEFAULT_MINIMUM = "2"
 
 var minimumAssembler = DEFAULT_MINIMUM
 
