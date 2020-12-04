@@ -127,7 +127,7 @@ var longRateNames = {
     "h": "hour",
 }
 
-var DEFAULT_RATE = "m"
+var DEFAULT_RATE = "s"
 
 var displayRateFactor = displayRates[DEFAULT_RATE]
 var rateName = DEFAULT_RATE
@@ -167,7 +167,7 @@ function renderRateOptions(settings) {
 var DEFAULT_RATE_PRECISION = 3
 var ratePrecision = DEFAULT_RATE_PRECISION
 
-var DEFAULT_COUNT_PRECISION = 1
+var DEFAULT_COUNT_PRECISION = 3
 var countPrecision = DEFAULT_COUNT_PRECISION
 
 function renderPrecisions(settings) {
